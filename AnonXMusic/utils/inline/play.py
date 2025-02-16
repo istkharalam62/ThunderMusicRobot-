@@ -32,8 +32,7 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-      
-      if 0 < umm <= 10:
+    if 0 < umm <= 10:
         bar = "◉——————————"
     elif 10 < umm < 20:
         bar = "—◉—————————"
@@ -69,7 +68,7 @@ def stream_markup_timer(_, chat_id, played, dur):
                 text="ᴏᴡɴᴇʀ", url="https://t.me/ll_CUTIE_OP_lll",
             ),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/CRAZY_OP_02",
+                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+p51PqdBHe3sxNzdl",
             )
         ],
          [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -91,7 +90,7 @@ def stream_markup(_, chat_id):
                 text="ᴏᴡɴᴇʀ", url="https://t.me/ll_CUTIE_OP_lll",
             ),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/CRAZY_OP_02",
+                text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+p51PqdBHe3sxNzdl",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
